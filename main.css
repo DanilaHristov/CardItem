@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+.cardItem{
+    background-color: rgb(240, 240, 240);
+    max-width: 920px;
+    margin: 60px auto 25px auto;
+}
+
+.pic{
+    width: 40%;
+    /* outline: 1px red solid; */
+    float: left;
+}
+
+.pic img{
+    width: 100%;
+}
+
+.info{
+    /* outline: 1px greenyellow solid; */
+    min-height: 525px;
+}
+
+h2, h3, h4, p, a{
+    position: relative;
+    left: 5%;
+    top: 200px;
+}
+
+h2{
+    font-family: "helvetica";
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500; 
+}
+
+h3{
+    font-family: "helvetica";
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: rgba(77, 77, 77, 0.6);
+}
+
+h4{
+    font-family: "helvetica";
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #333;
+}
+
+p{
+    font-family: "helvetica";
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+button{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(191, 191, 191);
+    color: rgb(41, 41, 41);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: underline; 
+}
